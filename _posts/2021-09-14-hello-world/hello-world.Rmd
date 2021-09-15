@@ -1,7 +1,7 @@
 ---
 title: "Hello World!"
 description: |
-  This is a hello word post.
+  This is a hello world post.
 author:
   - name: Jake Scott
     url: https://jake-scott.netlify.app/
