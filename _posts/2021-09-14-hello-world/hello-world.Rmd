@@ -1,7 +1,7 @@
 ---
 title: "Hello World!"
 description: |
-  A short description of the post.
+  This is a hello work post.
 author:
   - name: Jake Scott
     url: https://example.com/norajones
@@ -16,8 +16,6 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-Distill is a publication format for scientific and technical writing, native to the web.
-
-Learn more about using Distill at <https://rstudio.github.io/distill>.
+Hello world. This is my first post, likely to be deleted. But hey, for now, it is a terrifying display of my raw coding prowess! 
 
 

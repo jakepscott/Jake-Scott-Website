@@ -13,7 +13,24 @@
     "categories": [],
     "contents": "\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-09-14T22:23:57-04:00",
-    "input_file": "welcome.knit.md"
+    "last_modified": "2021-09-14T22:23:58-04:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2021-09-14-hello-world/",
+    "title": "Hello World!",
+    "description": "This is a hello work post.",
+    "author": [
+      {
+        "name": "Jake Scott",
+        "url": "https://example.com/norajones"
+      }
+    ],
+    "date": "2021-09-14",
+    "categories": [],
+    "contents": "\r\nHello world. This is my first post, likely to be deleted. But hey, for now, it is a terrifying display of my raw coding prowess!\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-09-14T23:02:54-04:00",
+    "input_file": "hello-world.knit.md"
   }
 ]
