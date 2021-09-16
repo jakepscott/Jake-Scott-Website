@@ -14,5 +14,5 @@ links:
 output:
   postcards::jolla
 ---
- 
-Research assistant for the Monetary Studies Section of the Federal Reserve Board. Colgate University graduate. Interested in data visualization/analysis, statistics, and economics, as well as their application to public policy.
+
+Senior research assistant for the Monetary Studies Section of the Federal Reserve Board. Colgate University graduate. Enormous R enthusiast passionate about data cleaning, visualization, and analysis, especially as it relates to public policy.
