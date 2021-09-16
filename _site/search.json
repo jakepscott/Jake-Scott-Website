@@ -6,14 +6,21 @@
       "description": "Some additional details about the blog",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-09-14T22:54:50-04:00"
+      "last_modified": "2021-09-15T21:33:58-04:00"
+    },
+    {
+      "path": "blog.html",
+      "title": "My Posts",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-09-15T21:34:01-04:00"
     },
     {
       "path": "index.html",
-      "title": "Jake Scott Blog",
+      "title": "Jake Scott",
       "author": [],
-      "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-09-14T22:54:54-04:00"
+      "contents": "\r\n\r\n          \r\n          \r\n          Jake Scott\r\n          \r\n          \r\n          Home\r\n          About\r\n          Blog\r\n          ☰\r\n          \r\n          \r\n      \r\n        \r\n          \r\n            Jake Scott\r\n          \r\n          \r\n            \r\n              Research assistant for the Monetary Studies Section of the Federal Reserve Board. Colgate University graduate. Interested in data visualization/analysis, statistics, and economics, as well as their application to public policy.\r\n            \r\n            \r\n              Research assistant for the Monetary Studies Section of the Federal Reserve Board. Colgate University graduate. Interested in data visualization/analysis, statistics, and economics, as well as their application to public policy.\r\n            \r\n          \r\n\r\n          \r\n            \r\n              \r\n                  \r\n                    \r\n                      LinkedIn\r\n                    \r\n                  \r\n                \r\n                                \r\n                  \r\n                    \r\n                      Twitter\r\n                    \r\n                  \r\n                \r\n                                \r\n                  \r\n                    \r\n                      GitHub\r\n                    \r\n                  \r\n                \r\n                                \r\n                  \r\n                    \r\n                      Email\r\n                    \r\n                  \r\n                \r\n                              \r\n          \r\n\r\n          \r\n            \r\n              \r\n                                \r\n                  \r\n                    LinkedIn\r\n                  \r\n                \r\n                                \r\n                  \r\n                    Twitter\r\n                  \r\n                \r\n                                \r\n                  \r\n                    GitHub\r\n                  \r\n                \r\n                                \r\n                  \r\n                    Email\r\n                  \r\n                \r\n                              \r\n            \r\n          \r\n        \r\n      \r\n    \r\n\r\n    \r\n    \r\n    ",
+      "last_modified": "2021-09-15T21:34:01-04:00"
     }
   ],
   "collections": ["posts/posts.json"]

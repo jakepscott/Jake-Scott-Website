@@ -1,5 +1,5 @@
 name: "Jake-Scott-Website"
-title: "Jake Scott Blog"
+title: "Jake Scott"
 description: |
   Jake Scott Blog
 output_dir: "_site"
@@ -9,4 +9,6 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
+    - text: "Blog"
+      href: blog.html
 output: distill::distill_article

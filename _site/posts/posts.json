@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2021-09-14-hello-world/",
+    "title": "Hello World!",
+    "description": "This is a hello world post.",
+    "author": [
+      {
+        "name": "Jake Scott",
+        "url": "https://jake-scott.netlify.app/"
+      }
+    ],
+    "date": "2021-09-14",
+    "categories": [],
+    "contents": "\r\nHello world. This is my first post, likely to be deleted. But hey, for now, it is a terrifying display of my raw coding prowess!\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-09-14T23:09:16-04:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/welcome/",
     "title": "Welcome to Jake Scott Blog",
     "description": "Welcome to our new blog, Jake Scott Blog. We hope you enjoy \nreading what we have to say!",
@@ -15,22 +32,5 @@
     "preview": {},
     "last_modified": "2021-09-14T22:23:58-04:00",
     "input_file": {}
-  },
-  {
-    "path": "posts/2021-09-14-hello-world/",
-    "title": "Hello World!",
-    "description": "This is a hello world post.",
-    "author": [
-      {
-        "name": "Jake Scott",
-        "url": "https://jake-scott.netlify.app/"
-      }
-    ],
-    "date": "2021-09-14",
-    "categories": [],
-    "contents": "\r\nHello world. This is my first post, likely to be deleted. But hey, for now, it is a terrifying display of my raw coding prowess!\r\n\r\n\r\n\r\n",
-    "preview": {},
-    "last_modified": "2021-09-14T23:09:15-04:00",
-    "input_file": "hello-world.knit.md"
   }
 ]

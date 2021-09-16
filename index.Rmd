@@ -1,5 +1,18 @@
 ---
-title: "Jake Scott Blog"
+title: "Jake Scott"
 site: distill::distill_website
-listing: posts
+image: "JakeScott_ProfileImage_Zoom.png"
+links:
+  - label: LinkedIn
+    url: "https://www.linkedin.com/in/jacob-scott-689875130/"
+  - label: Twitter
+    url: "https://twitter.com/jakepscott2020"
+  - label: GitHub
+    url: "https://github.com/jakepscott"
+  - label: Email
+    url: "mailto:jakepscott16@gmail.com"
+output:
+  postcards::jolla
 ---
+ 
+Research assistant for the Monetary Studies Section of the Federal Reserve Board. Colgate University graduate. Interested in data visualization/analysis, statistics, and economics, as well as their application to public policy.
