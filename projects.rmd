@@ -1,0 +1,25 @@
+---
+title: "Projects"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+```{r, include=FALSE}
+library(htmltools)
+source("R/create_proj_card.R")
+```
+
+```{r}
+create_proj_card(
+  img_src = "images/Covid-19-App.png",
+  url = "https://jake-scott.shinyapps.io/Coronavirus_Shiny_App/",
+  title = "Coronavirus Tracker Shiny App",
+  text = "Shiny web application that allows users to see cases and deaths at the national, state, and county level.",
+  text2 = NULL
+)
+
+```
