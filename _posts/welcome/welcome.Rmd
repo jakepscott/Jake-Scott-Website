@@ -1,13 +1,11 @@
 ---
-title: "Welcome to Jake Scott Blog"
+title: "Welcome to my site"
 description: |
-  Welcome to our new blog, Jake Scott Blog. We hope you enjoy 
-  reading what we have to say!
+  This site is being built right now, and this post will be deleted once it is complete. Until them, let me say welcome and enjoy your stay!
 author:
   - name: Jake Scott
-    url: https://example.com/norajones
+    url: https://jake-scott.netlify.app/
     affiliation: Federal Reserve Board
-    affiliation_url: https://example.com/spacelysprokets
 date: 09-14-2021
 output:
   distill::distill_article:
@@ -22,5 +20,34 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
+As you may have guessed, there isn't much to put here yet. So enjoy this fun figure I made as a joke. 
+
+```{r, message=F, warning=F,error=F}
+library(tidyverse)
+library(ggthemes)
+library(ggtext)
+library(here)
+
+font <- "Roboto Condensed"
+windowsFonts(`font`=windowsFont(font))
+windowsFonts()
+
+data <- tibble(x = seq(0,1,0.01)) %>% 
+  mutate(y = 100*x + rnorm(101, mean = 15, sd = 10)) 
+data %>% 
+  ggplot(aes(x,y)) +
+  geom_line() +
+  geom_smooth(color = "red") +
+  labs(title = "**The Jake Effect**",
+       subtitle = "Thoughtfulness steadily increases as the probability Jake said/did it increases",
+       caption = "Source: Logic and Reason",
+       y = "Thoughtfulness",
+       x = "Likelihood Jake said/did it") +
+  theme_economist(base_family = font, base_size = 12) +
+  theme(plot.title.position = "plot",
+        plot.title = element_markdown(size = rel(1.2)),
+        plot.caption = element_text(face = "italic", size = rel(0.8), 
+                                    color = "grey50", hjust = 0))
+```
 
 

@@ -1,8 +1,8 @@
 [
   {
-    "path": "posts/2021-09-14-hello-world/",
-    "title": "Hello World!",
-    "description": "This is a hello world post.",
+    "path": "posts/welcome/",
+    "title": "Welcome to my site",
+    "description": "This site is being built right now, and this post will be deleted once it is complete. Until them, let me say welcome and enjoy your stay!",
     "author": [
       {
         "name": "Jake Scott",
@@ -11,26 +11,9 @@
     ],
     "date": "2021-09-14",
     "categories": [],
-    "contents": "\r\nHello world. This is my first post, likely to be deleted. But hey, for now, it is a terrifying display of my raw coding prowess!\r\n\r\n\r\n\r\n",
-    "preview": {},
-    "last_modified": "2021-09-14T23:09:16-04:00",
-    "input_file": {}
-  },
-  {
-    "path": "posts/welcome/",
-    "title": "Welcome to Jake Scott Blog",
-    "description": "Welcome to our new blog, Jake Scott Blog. We hope you enjoy \nreading what we have to say!",
-    "author": [
-      {
-        "name": "Jake Scott",
-        "url": "https://example.com/norajones"
-      }
-    ],
-    "date": "2021-09-14",
-    "categories": [],
-    "contents": "\r\n\r\n\r\n\r\n",
-    "preview": {},
-    "last_modified": "2021-09-14T22:23:58-04:00",
+    "contents": "\r\nAs you may have guessed, there isn’t much to put here yet. So enjoy this fun figure I made as a joke.\r\n\r\n$serif\r\n[1] \"TT Times New Roman\"\r\n\r\n$sans\r\n[1] \"TT Arial\"\r\n\r\n$mono\r\n[1] \"TT Courier New\"\r\n\r\n$font\r\n[1] \"Roboto Condensed\"\r\n\r\n\r\n\r\n\r\n\r\n",
+    "preview": "posts/welcome/welcome_files/figure-html5/unnamed-chunk-1-1.png",
+    "last_modified": "2021-09-18T19:18:33-04:00",
     "input_file": {}
   }
 ]

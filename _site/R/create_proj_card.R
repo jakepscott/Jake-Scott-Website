@@ -11,7 +11,7 @@ create_proj_card <- function(img_src, url, title, text, text2){
     
     tags$div(
       class = "card-body",
-      h4(
+      h3(
         a(href = url,
           title)),
       
@@ -21,6 +21,7 @@ create_proj_card <- function(img_src, url, title, text, text2){
     tags$img(class="card-img-top",
              src=img_src,
              style="width:300px;"),
+    br()
   )
   
 }
