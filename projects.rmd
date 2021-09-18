@@ -1,5 +1,5 @@
 ---
-title: "Projects"
+title: "My Projects"
 output: distill::distill_article
 ---
 
@@ -13,6 +13,7 @@ library(htmltools)
 source("R/create_proj_card.R")
 ```
 
+# ***Shiny Apps***
 ```{r}
 create_proj_card(
   img_src = "images/Covid-19-App.png",
@@ -37,5 +38,29 @@ create_proj_card(
   text = "Shiny web app that fed real-time election data into the Economist Election Model and presented the resulting live win probabilities by state.",
   text2 = NULL
 )
+
+```
+
+---
+# ***Medium Articles***
+```{r}
+create_proj_card(
+  img_src = "images/He-Dies-She-Sucks.PNG",
+  url = "https://towardsdatascience.com/he-dies-she-sucks-b4a8ac18cb73",
+  title = "He Dies, She Sucks",
+  text = "An Analysis of Gender and Language in Songs on Spotify.",
+  text2 = NULL
+  #text2 = "Used Spotify's top 200 list and the Genius API to examine how men and women are treated differently in popular songs. "
+)
+
+create_proj_card(
+  img_src = "images/Whats-in-a-word.PNG",
+  url = "https://towardsdatascience.com/whats-in-a-word-da7373a8ccb",
+  title = "What's in a Word?",
+  text = "Why tf-idf sometimes fails to accurately capture word importance, and what we can use instead.",
+  #text2 = "I use the discography of Run the Jewels to demonstrate the systematic drawbacks of tf-idf as a measure of term importance, and propose an alternative."
+  text2 = NULL
+)
+
 
 ```
