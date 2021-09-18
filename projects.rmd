@@ -18,7 +18,23 @@ create_proj_card(
   img_src = "images/Covid-19-App.png",
   url = "https://jake-scott.shinyapps.io/Coronavirus_Shiny_App/",
   title = "Coronavirus Tracker Shiny App",
-  text = "Shiny web application that allows users to see cases and deaths at the national, state, and county level.",
+  text = "Shiny web app that allows users to see Covid-19 cases and deaths at the national, state, and county level.",
+  text2 = NULL
+)
+
+create_proj_card(
+  img_src = "images/Spotify-app.PNG",
+  url = "https://jake-scott.shinyapps.io/Spotify_Application/",
+  title = "Prototype Spotify Analysis Application",
+  text = "Shiny web app that allows user to input their Spotify username and analyze the characteristics of their music.",
+  text2 = NULL
+)
+
+create_proj_card(
+  img_src = "images/Election_App.png",
+  url = "https://jake-scott.shinyapps.io/Economist_Election_Model",
+  title = "Live 2020 Election Night Model",
+  text = "Shiny web app that fed real-time election data into the Economist Election Model and presented the resulting live win probabilities by state.",
   text2 = NULL
 )
 
