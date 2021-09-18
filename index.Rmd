@@ -11,6 +11,8 @@ links:
     url: "https://github.com/jakepscott"
   - label: Email
     url: "mailto:jakepscott16@gmail.com"
+  - label: CV
+    url: "pdfs/CV.pdf"
 output:
   postcards::trestles 
 ---
