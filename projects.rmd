@@ -13,6 +13,99 @@ library(htmltools)
 source("R/create_proj_card.R")
 ```
 
+# ***White Papers, Reports, and Briefs***
+```{r}
+create_proj_card(
+  img_src = "images/sustainable-affordable-housing-report-image.jpeg",
+  url = "https://www.newyorkfed.org/outreach-and-education/climate/fed-affordable-housing-and-energy-transition",
+  title = "Sustainable Affordable Housing: Strategies for Financing an Inclusive Energy Transition",
+  text = "Combined original data analysis with aggregated insights and recommendations from experts, stakeholders, and policymakers to assess the challenges and opportunities for electrifying multifamily properties in New York State.",
+  text2 = NULL
+)
+
+create_proj_card(
+  img_src = "images/sizing-cdfi-industry.PNG",
+  url = "https://www.newyorkfed.org/outreach-and-education/household-financial-stability/sizing-the-cdfi-market-understanding-industry-growth",
+  title = "Sizing the CDFI Market: Understanding Industry Growth",
+  text = "Combined multiple data sets and conducted original analysis to generate first-of-its-kind comprehensive estimate of the size and recent growth of the Community Development Financial Institution (CDFI) industry.",
+  text2 = NULL
+)
+
+create_proj_card(
+  img_src = "images/food-security-blog.PNG",
+  url = "https://tellerwindow.newyorkfed.org/2022/12/08/seeking-solutions-for-the-costs-and-challenges-of-food-insecurity/",
+  title = "Seeking Solutions for the Costs and Challenges of Food Insecurity",
+  text = "Combined original analysis of Economist Impact’s Global Food Security Index (GSFI) with insights from global experts to highlight challenges of and solutions for food insecurity.",
+  text2 = NULL
+)
+
+```
+
+---
+
+# ***Academic Articles***
+```{r}
+create_proj_card(
+  img_src = "images/smart-grant-paper.PNG",
+  url = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4188070#",
+  title = "Incentivizing STEM Participation: Evidence from the SMART Grant Program",
+  text = "Evaluated the effects of the SMART Grant program on college graduates' major fields and subsequent STEM workforce retention using nationally-representative survey data and a difference-in-differences quasi-experimental approach.",
+  text2 = NULL
+)
+
+create_proj_card(
+  img_src = "images/macro-paper.png",
+  url = "pdfs/macro-paper.pdf",
+  title = "The Endogeneity of the Natural Rate of Growth in the United
+States",
+  text = "Applied Okun's Equation and Thirlwall's Reversal Method to quarterly data on unemployment and gross domestic product in the United States from 1948 to 2019 in order to test the assumption that the natural rate of growth is exogenous to actual growth",
+  text2 = NULL
+)
+
+create_proj_card(
+  img_src = "images/mismatch-paper.PNG",
+  url = "pdfs/mismatch-paper.pdf",
+  title = "Measurement Sensitivity in Field-of-Study Mismatch Research",
+  text = "Applied simple linear regression and linear probability models on data from the National Survey of College Graduates to demonstrate that the predicted causes and consequences of field-of-study mismatch are highly sensitive to how one measures mismatch itself.",
+  text2 = NULL
+)
+
+create_proj_card(
+  img_src = "images/spotify-paper.png",
+  url = "pdfs/spotify-paper.pdf",
+  title = "(Not) Working 9 to 5: Using Music Characteristic and Song Lyric
+Data to Predict Initial Claims",
+  text = "Used lasso regression and machine learning to assess whether the features and sentiment of popular music in a given week could predict initial claims data.",
+  text2 = NULL
+)
+
+```
+
+---
+
+# ***Medium Articles***
+```{r}
+create_proj_card(
+  img_src = "images/He-Dies-She-Sucks.PNG",
+  url = "https://towardsdatascience.com/he-dies-she-sucks-b4a8ac18cb73",
+  title = "He Dies, She Sucks",
+  text = "Webscraped thousands of songs and their lyrics; used natural language processing to assess how different genders are sung about differently in popular music.",
+  text2 = NULL
+  #text2 = "Used Spotify's top 200 list and the Genius API to examine how men and women are treated differently in popular songs. "
+)
+
+create_proj_card(
+  img_src = "images/Whats-in-a-word.PNG",
+  url = "https://towardsdatascience.com/whats-in-a-word-da7373a8ccb",
+  title = "What's in a Word?",
+  text = "I use the discography of Run the Jewels to demonstrate the systematic drawbacks of tf-idf as a measure of term importance, and propose and defend an alternative measure.",
+  #text2 = "I use the discography of Run the Jewels to demonstrate the systematic drawbacks of tf-idf as a measure of term importance, and propose an alternative."
+  text2 = NULL
+)
+```
+
+---
+
 # ***Shiny Apps***
 ```{r}
 create_proj_card(
@@ -41,54 +134,4 @@ create_proj_card(
 
 ```
 
----
-# ***Medium Articles***
-```{r}
-create_proj_card(
-  img_src = "images/He-Dies-She-Sucks.PNG",
-  url = "https://towardsdatascience.com/he-dies-she-sucks-b4a8ac18cb73",
-  title = "He Dies, She Sucks",
-  text = "An Analysis of Gender and Language in Songs on Spotify.",
-  text2 = NULL
-  #text2 = "Used Spotify's top 200 list and the Genius API to examine how men and women are treated differently in popular songs. "
-)
 
-create_proj_card(
-  img_src = "images/Whats-in-a-word.PNG",
-  url = "https://towardsdatascience.com/whats-in-a-word-da7373a8ccb",
-  title = "What's in a Word?",
-  text = "Why tf-idf sometimes fails to accurately capture word importance, and what we can use instead.",
-  #text2 = "I use the discography of Run the Jewels to demonstrate the systematic drawbacks of tf-idf as a measure of term importance, and propose an alternative."
-  text2 = NULL
-)
-```
-
----
-# ***Academic Articles***
-```{r}
-create_proj_card(
-  img_src = "images/spotify-paper.png",
-  url = "pdfs/spotify-paper.pdf",
-  title = "(Not) Working 9 to 5: Using Music Characteristic and Song Lyric
-Data to Predict Initial Claims",
-  text = "Explored whether the features and sentiment of popular music in a given week could predict initial claims, using Lasso.",
-  text2 = NULL
-)
-
-create_proj_card(
-  img_src = "images/macro-paper.png",
-  url = "pdfs/macro-paper.pdf",
-  title = "The Endogeneity of the Natural Rate of Growth in the United
-States",
-  text = "Applied Okun's Equation and Thirlwall's Reversal Method to quarterly data on unemployment and gross domestic product in the United States from 1948 to 2019 in order to test the assumption that the natural rate of growth is exogenous to actual growth",
-  text2 = NULL
-)
-
-create_proj_card(
-  img_src = "images/mismatch-paper.PNG",
-  url = "pdfs/mismatch-paper.pdf",
-  title = "Measurement Sensitivity in Field-of-Study Mismatch Research",
-  text = "Use data from the National Survey of College Graduates in simple linear regression and linear probability models to demonstrate that the predicted causes and consequences of field-of-study mismatch are highly sensitive to how one measures mismatch itself.",
-  text2 = NULL
-)
-```
