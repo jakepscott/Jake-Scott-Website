@@ -24,10 +24,18 @@ create_proj_card(
 )
 
 create_proj_card(
+  img_src = "images/5-50-unit-report-image.jpeg",
+  url = "https://www.newyorkfed.org/outreach-and-education/climate/electrifying-small-multifamily-buildings-in-new-york-state",
+  title = "Window of Opportunity: New York’s Small Multifamily Buildings, Expiring Equipment, and Clean Energy Goals",
+  text = "Used series of housing and energy data sources to assess the characteristics of the the small to midsize housing stock in New York, including the size, geographic distribution, energy use, and economic situation of residents. Paired analysis with aggregated insights and recommendations from experts, stakeholders, and policymakers to assess the challenges and opportunities for electrifying these properties.",
+  text2 = NULL
+)
+
+create_proj_card(
   img_src = "images/sizing-cdfi-industry.PNG",
   url = "https://www.newyorkfed.org/outreach-and-education/household-financial-stability/sizing-the-cdfi-market-understanding-industry-growth",
   title = "Sizing the CDFI Market: Understanding Industry Growth",
-  text = "Combined multiple data sets and conducted original analysis to generate first-of-its-kind comprehensive estimate of the size and recent growth of the Community Development Financial Institution (CDFI) industry.",
+  text = "Combined multiple data sources and conducted original analysis to generate first-of-its-kind comprehensive estimate of the size and recent growth of the Community Development Financial Institution (CDFI) industry.",
   text2 = NULL
 )
 
@@ -98,7 +106,7 @@ create_proj_card(
   img_src = "images/Whats-in-a-word.PNG",
   url = "https://towardsdatascience.com/whats-in-a-word-da7373a8ccb",
   title = "What's in a Word?",
-  text = "I use the discography of Run the Jewels to demonstrate the systematic drawbacks of tf-idf as a measure of term importance, and propose and defend an alternative measure.",
+  text = "Used discography of Run the Jewels to demonstrate the systematic drawbacks of tf-idf as a measure of term importance, and proposed and defended an alternative measure.",
   #text2 = "I use the discography of Run the Jewels to demonstrate the systematic drawbacks of tf-idf as a measure of term importance, and propose an alternative."
   text2 = NULL
 )
